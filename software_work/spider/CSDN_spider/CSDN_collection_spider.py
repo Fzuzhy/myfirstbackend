@@ -89,7 +89,7 @@ def CSDN_collect_spider(wechat_id):
 
     # 以上为获取收藏夹中博客url过程
 
-    db = DataManager('dbase')
+    db = DataManager('sys')
     for url in collect_url_list:
         data = {}
         html = get_page(url)

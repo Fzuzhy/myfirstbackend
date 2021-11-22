@@ -43,7 +43,7 @@ def cnblogs_news_spider():
     for li in lis:
         url_lis.append(li.get())
 
-    db_manager = DataManager('dbase')
+    db_manager = DataManager('sys')
     db_manager.clear_table()
     for url in url_lis:
         print(url)

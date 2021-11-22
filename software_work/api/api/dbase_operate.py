@@ -10,7 +10,7 @@ from sqlalchemy.databases import mysql
 
 app = Flask(__name__)
 
-app.config["SQLALCHEMY_DATABASE_URI"] = 'mysql+pymysql://root:020506zhhy@127.0.0.1:3306/dbase'
+app.config["SQLALCHEMY_DATABASE_URI"] = 'mysql+pymysql://root:020506Zhy!@127.0.0.1:3306/sys'
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 app.config["SECRET_KEY"] = "zzz"
 
